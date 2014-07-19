@@ -1,0 +1,21 @@
+{
+	"name": "express-fly",
+	"version": "0.1.0",
+	"description": "RESTful resource router.",
+	"author": {
+		"name": "Ivan Dustin B. Bilon",
+		"email": "ivan22.dust@gmail.com"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"pluralize": ">=0.0.10"
+	},
+	"devDependencies": {
+		"coffee-script": "~1.7.1",
+		"mocha": "*",
+		"sinon": "*"
+	},
+	"scripts": {
+		"prepublish": "coffee -c -o . coffee"
+	}
+}
